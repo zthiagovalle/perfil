@@ -101,6 +101,10 @@ footer{
         align-items: center;
     }
 
+    .foto h2{
+        text-align: center;
+    }
+
     .sobre{
         height: 40%;
     }
@@ -121,6 +125,7 @@ footer{
 
 
     footer{
+        margin-top: 15px;
         height: 10%;
     }
 
