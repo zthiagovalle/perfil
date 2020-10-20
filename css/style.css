@@ -81,41 +81,50 @@ footer{
 @media(max-width: 768px){   
 
     body{
-        height: 100vh;
+        height: 200vh;
     }
 
     header{
-        height: 10vh;
+        height: 10%;
     }
-
+    
     main{
+        height: 80%;
         flex-direction: column;
-        height: 80vh;
+        align-items: center;
+        justify-content: space-around;
     }
 
-    .foto img{
-        width: 95%;
+    .foto{
+        height: 40%;
+        justify-content: center;
+        align-items: center;
     }
 
     .sobre{
-        margin-bottom: 20px;
+        height: 40%;
     }
 
-    .sobre p {
-        width: 70%;
+    .sobre p{
+        text-align: center;
     }
 
     .sobre ul{
-        justify-content: space-around;
-        width: 100%;
+        width: 30%;
+        margin-top: 15px;
+        flex-wrap: wrap;
     }
 
-    .sobre img{
-        width: 85%;
+    .sobre ul li{
+        margin-top: 15px;
     }
+
 
     footer{
-        height: 10vh;
+        height: 10%;
     }
+
+
+    
 
 }
