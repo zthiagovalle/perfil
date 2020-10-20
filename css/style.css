@@ -77,6 +77,9 @@ footer{
 
     body{
         height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     img{
@@ -96,6 +99,7 @@ footer{
 
     .foto{
         height: 40%;
+        width: 60%;
         justify-content: center;
         align-items: center;
     }
@@ -106,6 +110,9 @@ footer{
 
     .sobre{
         height: 40%;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
     }
 
     .sobre p{
