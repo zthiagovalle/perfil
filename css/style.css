@@ -15,6 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 
@@ -26,22 +27,44 @@ main{
 }
 
 .foto{
-    width: 40%;
+    width: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+}
+
+.foto img{
+    border-radius: 100%;
+}
+
+.foto h2{
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .sobre{
-    width: 40%;
+    width: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.sobre a{
+    color: white;
+    font-weight: bold;
+}
+
 .sobre ul{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    width: 60vh;
+}
+
+.sobre ul li a:hover{
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 
 
@@ -51,4 +74,5 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
