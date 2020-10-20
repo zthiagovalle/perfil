@@ -76,14 +76,14 @@ footer{
 @media(max-width: 768px){   
 
     body{
-        height: 190vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     img{
-        width: 95%;
+        width: 90%;
     }
 
     header{
