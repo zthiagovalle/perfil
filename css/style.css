@@ -80,34 +80,42 @@ footer{
 /* Mobile */
 @media(max-width: 768px){   
 
+    body{
+        height: 100vh;
+    }
+
     header{
         height: 10vh;
-        width: 100%;
     }
 
     main{
         flex-direction: column;
         height: 80vh;
-        width: 100%;
+    }
+
+    .foto img{
+        width: 95%;
     }
 
     .sobre{
-        margin: 10px 0 ;
-        justify-content: space-around;
+        margin-bottom: 20px;
     }
 
-    .foto{
-        margin: 10px 0;
+    .sobre p {
+        width: 70%;
     }
-    
-    img{
+
+    .sobre ul{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .sobre img{
         width: 85%;
     }
 
-
     footer{
         height: 10vh;
-        width: 100%;
     }
 
 }
