@@ -76,7 +76,7 @@ footer{
 @media(max-width: 768px){   
 
     body{
-        height: 200vh;
+        height: 190vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
