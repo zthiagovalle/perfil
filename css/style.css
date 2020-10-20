@@ -93,6 +93,7 @@ footer{
 
     .sobre{
         margin: 10px 0 ;
+        justify-content: space-around;
     }
 
     .foto{
