@@ -90,6 +90,14 @@ footer{
         height: 80vh;
         width: 100%;
     }
+
+    .sobre{
+        margin: 10px 0 ;
+    }
+
+    .foto{
+        margin: 10px 0;
+    }
     
     img{
         width: 85%;
